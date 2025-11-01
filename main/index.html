@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="icon" type="image/png" href="./assets/icons8-copas-96.png">
+
+    <title>Para Minha Princesa ❤️</title>
+
+</head>
+
+<body>
+    <!-- musica -->
+    <audio id="Music" src="./music/Perfect.wav" loop>
+    </audio>
+
+    <!-- Overlay de loading -->
+    <div class="loading-overlay">
+        <div class="loading-heart">❤️</div>
+    </div>
+
+    <!-- Cursor personalizado -->
+    <div class="custom-cursor"></div>
+
+    <!-- Partículas de fundo -->
+    <div class="particles"></div>
+
+    <!-- Efeito de ondas -->
+    <div class="wave-bg"></div>
+
+    <div class="container">
+        <header class="header">
+            <h1>Minha Esposa <span class="girlfriend-name"></span></h1>
+            <p>Declaração para você, amor ❤️</p>
+        </header>
+
+        <main class="love-card">
+            <h2>Cartinha de amor 💕</h2>
+            <div class="love-message">
+                <p><span class="girlfriend-name"></span>, desde que você chegou na minha vida, cada dia se tornou mais
+                    colorido, mais doce,
+                    mais completo. Hoje eu quis expressar meus sentimentos de um jeito diferente. Por
+                    isso,
+                    criei esse site especialmente pra você. Pode não parecer muito, mas ele carrega algo valioso: todo o
+                    meu
+                    carinho, dedicação e o quanto você significa pra mim.</p><br>
+
+                <p class="text-p">Esse não é apenas um presente digital, é uma parte de mim entregue a você. Não foi
+                    fácil
+                    montar tudo isso, precisei pesquisar, errar, aprender… mas cada segundo valeu a pena só por saber
+                    que
+                    você vai ver, alias esse era o motivo de esta rindo sozinho esses dias kkk. Você é, sem dúvida, um
+                    dos maiores motivos que me impulsionam a evoluir. Sua doçura e
+                    sua
+                    força me inspiram todos os dias, e seu jeito de enxergar o mundo com tanta leveza me encanta. E
+                    saber
+                    que posso usar oque eu sei para te homenagear me enche de orgulho.</p><br>
+
+                <p class="text-p">Não teve como eu te dar algo caro e peço desculpas por isso, mas posso te oferecer
+                    algo
+                    sincero feito com o coração. Esse site é o reflexo do nosso amor, da nossa jornada, das batalhas que
+                    enfrentamos juntos e da força com que seguimos firmes, sempre de mãos dadas. Você é uma mulher
+                    incrível,
+                    e eu sou muito grato por ter você na minha vida. Lembro-me de quando a gente se conheceu.</p><br>
+
+                <p class="text-p">Esse dia é sobre nós. Mas, principalmente, é sobre você. Você merece o mundo, e eu
+                    quero,
+                    aos poucos, te dar o melhor que eu puder. Espero que você sinta todo meu amor em cada pedacinho
+                    desse
+                    presente. Mal posso esperar para construir um futuro lindo ao seu lado, cheio de novas aventuras e
+                    muito
+                    amor.</p><br>
+                <p> Eu Te Amo Mil Milhões, meu amor.</p><br>
+
+                <p>Você é minha melodia favorita, meu porto seguro, minha inspiração diária. Com você descobri que o
+                    amor verdadeiro não é apenas um sentimento, é um lar, é paz, é a certeza de que encontrei minha
+                    pessoa para sempre! ❤️</p>
+            </div>
+
+            <button class="surprise-btn" onclick="showSurprise()">
+                ✨ Uma Surpresa Especial Para Você ✨
+            </button>
+
+            <div class="special-message" id="specialMessage">
+                <h3>💖 Do Fundo Do Meu Coração 💖</h3>
+                <p><span class="girlfriend-name"></span>, você é o presente mais lindo que a vida me deu. Cada sorriso
+                    seu ilumina meu mundo, cada abraço seu me faz sentir em casa, cada "eu te amo" seu é música para
+                    minha alma.</p>
+                <br>
+                <p>Obrigado(a) por ser minha companheira de sonhos, minha parceira de vida, minha melhor amiga e meu
+                    grande amor. Hoje e um dia especial nosso dia 7/11, quero que saiba: você é tudo que sempre sonhei
+                    e muito mais!
+                    💝</p>
+            </div>
+        </main>
+
+        <section class="photo-gallery">
+            <div class="photo-frame">
+                <img src="../assets/img/igm1.jpeg" alt="Nossa primeira foto juntos"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💓<br><small>Foto 1</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img42.jpeg" alt="Momento especial"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💓<br><small>Foto 2</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img3.jpeg" alt="Lembrança querida"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💘<br><small>Foto 3</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img4.jpeg" alt="Nosso amor"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💞<br><small>Foto 4</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img5.jpeg" alt="Momento único"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💓<br><small>Foto 5</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img6.jpeg" alt="Para sempre"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💗<br><small>Foto 6</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img7.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💓<br><small>Foto 7</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img8.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💕<br><small>Foto 8</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img9.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💌<br><small>Foto 9</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img10.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💝<br><small>Foto 10</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img11.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💓<br><small>Foto 11</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img22.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💘<br><small>Foto 12</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img13.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💓<br><small>Foto 13</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img14.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💓<br><small>Foto 14</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img15.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💗<br><small>Foto 15</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img16.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💖<br><small>Foto 16</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img17.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💕<br><small>Foto 17</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img18.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💌<br><small>Foto 18</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img19.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💌<br><small>Foto 19</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img20.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💑<br><small>Foto 20</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img21.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💘<br><small>Foto 21</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img23.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💞<br><small>Foto 22</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img24.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💓<br><small>Foto 23</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img25.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💗<br><small>Foto 24</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img26.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💖<br><small>Foto 25</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img27.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💕<br><small>Foto 26</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img28.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💕<br><small>Foto 27</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img29.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💝<br><small>Foto 28</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img30.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💑<br><small>Foto 29</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img31.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💘<br><small>Foto 30</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img32.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💞<br><small>Foto 31</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img33.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💓<br><small>Foto 32</small>';">
+            </div>
+            <div class="photo-frame">
+                <img src="../assets/img/img34.jpeg" alt="nossas foto aleatorias"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='💓<br><small>Foto 33</small>';">
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>Criado com todo <span class="heart-beat">❤️</span> do universo</p>
+            <p>Para a <span class="girlfriend-name"></span> mais especial do mundo! 💫</p>
+            <p>Feliz Dia 7, meu amor! 💑</p><br />
+            <p id="tempo">Estamos juntos há:</p>
+            <div id="contador">Calculando...</div>
+        </footer>
+    </div>
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/day-counter.js"></script>
+</body>
+
+</html>
