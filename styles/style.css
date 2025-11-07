@@ -51,7 +51,6 @@ canvas#canvas {
   position: absolute;
   color: #fff;
   width: 100%;
-  content: "Clique";
   left: 0;
   bottom: 0;
   font-size: 24px;
